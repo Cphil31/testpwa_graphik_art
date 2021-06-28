@@ -11,5 +11,6 @@
             "type":"image/png",
             "sizes":"192/192"
         }
-    ]
+    ],
+    "start-url":"?/source=pwa"
 }
