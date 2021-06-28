@@ -1,0 +1,17 @@
+{
+    "name":"tutoriel PWA",
+    "icons": [
+        {
+            "src": "icons/512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/192.png",
+            "sizes": "192192",
+            "type": "image/png"
+        }
+    ],
+    "start-url":"/?source=pwa",
+    "display":"standalone"
+}
