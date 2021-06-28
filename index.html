@@ -7,9 +7,11 @@
     <title>Document</title>
     <link rel="manifest" href="manifest.json">
     <script>
-        # attendre la fin du chargement ,on ne vas faire de traitement que lorsque la page seras chargée.
+        
         window.addEventListener('load', ()=>{
-            navigator.serviceWorker.register('/sw.js')
+            if("serviceWorker" in navigator){
+                navigator.serviceWorker.register('/sw.js')
+            }
         })
     </script>
 </head>
